@@ -46,7 +46,7 @@ const services: Service[] = [
     link: "/makeup",
   },
   {
-    title: "Asthetics",
+    title: "Aesthetics",
     description:
       "Rejuvenate your mind and body with our soothing massages and spa treatments. Experience pure relaxation and leave feeling refreshed!",
     icon1: "/assets/spa-1.png",

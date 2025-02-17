@@ -1,6 +1,7 @@
 // About.tsx
 "use client";
 
+import Link from "next/link"; // Import the Link component
 import { Check } from "lucide-react";
 import { useEffect, useRef } from "react";
 import Marquee from "react-fast-marquee";
@@ -120,6 +121,14 @@ const About = () => {
                 rejuvenating escape. Let us pamper you with the care you
                 deserve—because at Comfort Salon, beauty begins with comfort. 🌿
               </p>
+              <div className="text-center lg:text-left">
+                <Link
+                  href="/aboutus" // Link to the dedicated about page
+                  className="text-primary hover:text-primary-dark font-semibold underline transition-colors duration-300"
+                >
+                  Read more
+                </Link>
+              </div>
             </motion.div>
 
             {/* Services */}

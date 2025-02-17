@@ -10,16 +10,18 @@ import SocialMediaFeed from "@/components/SocialMediaFeed";
 
 export default function Home() {
   return (
-    <main className="bg-secondary-foreground">
-      <Navbar />
-      <Hero />
-      <ServiceCards />
-      <About />
-      <Services />
-      <Gallery />
-      <ContactSection />
-      <SocialMediaFeed />
-      <Footer />
+    <main className="bg-secondary-foreground relative">
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <ServiceCards />
+        <About />
+        <Services />
+        <Gallery />
+        <ContactSection />
+        <SocialMediaFeed />
+        <Footer />
+      </div>
     </main>
   );
 }
