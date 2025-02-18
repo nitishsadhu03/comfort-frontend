@@ -12,76 +12,146 @@ import React from "react";
 
 const shopData = [
   {
-    id: "shop-1",
+    id: "shop-3",
     name: "COMFORT SALON-SB GORAI ROAD ",
     image: "/assets/hero-bg.jpg",
     city: "Asansol",
     state: "West Bengal",
     establishedDate: "2001",
     description:
-      "Our flagship store featuring premium services in the heart of Asansol present at SB Gorai road. At COMFORT Luxury Salon, we offer a wide range of high-end beauty and grooming services tailored to meet the diverse needs of our clientele. With a team of expert stylists and beauty professionals, we ensure top-notch service quality using the latest trends, techniques, and premium products. Whether you are looking for a relaxing spa session, a rejuvenating skincare treatment, or a stylish hair makeover, our salon provides a luxurious experience designed to pamper and enhance your beauty. Experience elegance, comfort, and personalized care at our South Extension branch, where excellence is our standard.",
+      "Our flagship store featuring premium services in the heart of Asansol. At COMFORT Luxury Salon, we offer a wide range of high-end beauty and grooming services tailored to meet the diverse needs of our clientele. With a team of expert stylists and beauty professionals, we ensure top-notch service quality using the latest trends, techniques, and premium products. Whether you are looking for a relaxing spa session, a rejuvenating skincare treatment, or a stylish hair makeover, our salon provides a luxurious experience designed to pamper and enhance your beauty. Experience elegance, comfort, and personalized care at our Gorai Road branch, where excellence is our standard.",
     address: "SB GORAI Road, opposite Gorai Mansion, pin:- 713301",
-    contactNumber: "+91 7001707740",
+    contactNumber: "+91 9564664242",
     email: "office@comfort.org.in",
     workingHours: {
-      weekdays: "10:00 AM - 8:00 PM",
-      weekends: "9:00 AM - 9:00 PM",
+      weekdays: "09:00 AM - 10:00 PM",
+      weekends: "09:00 AM - 10:00 PM",
     },
   },
   {
     id: "shop-2",
     name: "Schwarzkopf Comfort Salon",
-    image: "/assets/hero-bg.jpg",
+    image: "/assets/pic-90.jpg",
     city: "Asansol",
     state: "West Bengal",
     establishedDate: "2024",
     description:
-      "Located in the bustling heart of Murgasol, COMFORT Luxury Salon offers an upscale experience with a wide array of premium beauty and grooming services. Our expert team of stylists and skincare specialists are dedicated to providing top-tier services, whether it’s a stylish new haircut, rejuvenating facial, or professional makeup application. We use industry-leading products and cutting-edge techniques to ensure that every client leaves feeling refreshed and confident. Step into luxury and let us redefine your beauty experience at our Connaught Place branch.",
+      "Located in the bustling heart of Murgasol, COMFORT Luxury Salon offers an upscale experience with a wide array of premium beauty and grooming services. Our expert team of stylists and skincare specialists are dedicated to providing top-tier services, whether it’s a stylish new haircut, rejuvenating facial, or professional makeup application. We use industry-leading products and cutting-edge techniques to ensure that every client leaves feeling refreshed and confident. Step into luxury and let us redefine your beauty experience at our Murgasol branch.",
     address: "Murgasol, Asansol - 713303 (Beside Yes Bank,Opposite Pantaloons)",
-    contactNumber: "+91 7001707740",
+    contactNumber: "+91 9339304465 ",
     email: "office@comfort.org.in",
     workingHours: {
-      weekdays: "10:30 AM - 8:30 PM",
-      weekends: "9:00 AM - 9:30 PM",
+      weekdays: "09:00 AM - 10:00 PM",
+      weekends: "09:00 AM - 10:00 PM",
     }
   },
   {
-    id: "shop-3",
-    name: "COMFORT Luxury Salon - Bangalore Indiranagar",
-    image: "/assets/hero-bg.jpg",
+    id: "shop-1",
+    name: "COMFORT Prémia",
+    image: "/assets/pic-90.jpg",
     city: "Bangalore",
     state: "Karnataka",
     establishedDate: "2020",
     description:
-      "Our Indiranagar branch in Bangalore is a haven of elegance and relaxation. COMFORT Luxury Salon brings high-end styling, skincare, and spa services to one of Bangalore’s most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Indiranagar branch to experience beauty, wellness, and relaxation like never before.",
+      "Prepare to be captivated by the epitome of refined elegance at Comfort Premia Salon, the BEST Salon in Asansol. From Trend-Setting hairstyles to flawless makeup, are pro artist at Premia offer a comprehensive range of services tailored to your desires. Indulge in Comfort signature rituals designed to elevate your look while rejuvenating your spirit. As the top rated salon in Asansol we provide an unparallel experience in a luxurious ambience where every detail is curated to ensure your utmost comfort and satisfaction. Get yourself pampered with the skilled hands of our professionals at Comfort Premia salon and emerge feeling refreshed, radiant and relaxed.",
     address:
-      "105, 1st Floor, 100 Feet Road, Indiranagar, Bangalore, Karnataka 560038",
-    contactNumber: "+91 9876543233",
-    email: "indiranagar@comfortsalon.com",
+      "Comfort Premia 1st floor beside PC Chandra Jewellers, opposite Pantaloons Asansol-713303",
+    contactNumber: "+91 9382283793",
+    email: "office@comfort.org.in",
     workingHours: {
-      weekdays: "10:00 AM - 9:00 PM",
-      weekends: "9:30 AM - 10:00 PM",
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
     },
-    employees: [
-      {
-        id: 5,
-        name: "Ananya Iyer",
-        role: "Makeup Artist",
-        image: "/assets/service-7.jpg",
-        description: "Professional makeup artist for all occasions",
-        experience: 6,
-        specialties: ["Bridal Makeup", "Party Makeup", "Airbrush Makeup"],
-      },
-      {
-        id: 6,
-        name: "Rohan Verma",
-        role: "Hair Stylist",
-        image: "/assets/service-8.jpg",
-        description: "Expert in men’s and women’s haircuts",
-        experience: 8,
-        specialties: ["Fade Cuts", "Hair Texturing", "Scalp Treatments"],
-      },
-    ],
+  },
+  {
+    id: "shop-4",
+    name: "WELLA COMFORT",
+    image: "/assets/pic-89.jpg",
+    city: "Asansol",
+    state: "West Bengal",
+    establishedDate: "2020",
+    description:
+      "Our WELLA COMFORT branch in Sentrum Mall,Asansol is a heaven of elegance and relaxation. COMFORT Luxury Salon brings high-end styling, skincare, and spa services to one of Asansol most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Wella Comfort branch to experience beauty, wellness, and relaxation like never before.",
+    address:
+      "Wella Comfort, 1st Floor, Sentrum Mall, Shristinagar, Asansol-713305",
+    contactNumber: "+91 9434100422",
+    email: "office@comfort.org.in",
+    workingHours: {
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
+    },
+  },
+  {
+    id: "shop-5",
+    name: "COMFORT Bastin Bazaar-Underground",
+    image: "/assets/pic-85.jpg",
+    city: "Asansol",
+    state: "West Bengal",
+    establishedDate: "2020",
+    description:
+      "Our Bastin Bazaar branch in Asansol is a haven of elegance and relaxation. COMFORT Salon brings high-end styling, skincare, and spa services to one of the most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Bastin Bazaar branch to experience beauty, wellness, and relaxation like never before.",
+    address:
+      "Comfort Salon Underground Bastin Bazaar,Beside Amrito Sweets, Asansol-713301",
+    contactNumber: "+91 8001927701",
+    email: "office@comfort.org.in",
+    workingHours: {
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
+    },
+  },
+  {
+    id: "shop-6",
+    name: "COMFORT Bastin Bazaar-First Floor",
+    image: "/assets/pic-87.jpg",
+    city: "Asansol",
+    state: "West Bengal",
+    establishedDate: "2020",
+    description:
+      "Our Bastin Bazaar branch in Asansol is a haven of elegance and relaxation. COMFORT Salon brings high-end styling, skincare, and spa services to one of the most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Bastin Bazaar branch to experience beauty, wellness, and relaxation like never before.",
+    address:
+      "Comfort Salon Underground Bastin Bazaar,Beside Amrito Sweets, Asansol-713301",
+    contactNumber: "+91 8001927701",
+    email: "office@comfort.org.in",
+    workingHours: {
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
+    },
+  },
+  {
+    id: "shop-7",
+    name: "COMFORT Purulia",
+    image: "/assets/pic-86.jpg",
+    city: "Purulia",
+    state: "West Bengal",
+    establishedDate: "2020",
+    description:
+      "Our Comfort branch in Purulia is a haven of elegance and relaxation. COMFORT Luxury Salon brings high-end styling, skincare, and spa services to one of Purulia's most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Comfort Purulia's branch to experience beauty, wellness, and relaxation like never before.",
+    address:
+      "Comfort Salon, KB City Center Mall Beside Baskin Robbins, deshbandhu road purulia-723101",
+    contactNumber: "+91 7001707292",
+    email: "office@comfort.org.in",
+    workingHours: {
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
+    },
+  },
+  {
+    id: "shop-8",
+    name: "COMFORT Bankura",
+    image: "/assets/pic-88.jpg",
+    city: "Bankura",
+    state: "West Bengal",
+    establishedDate: "2020",
+    description:
+      "Our Comfort branch in Bankura is a haven of elegance and relaxation. COMFORT Luxury Salon brings high-end styling, skincare, and spa services to one of Bankura’s most vibrant neighborhoods. Our team of professionals is dedicated to crafting personalized beauty experiences, ensuring that every visit is a rejuvenating escape. From expert hair treatments to luxurious facials and relaxing spa therapies, we provide services that cater to your every need. Visit our Bankura branch to experience beauty, wellness, and relaxation like never before.",
+    address:
+      "Comfort Salon Swastik Alloy Apartment beside Sanjeevani Medical, Pratap Bagan, Bankura-722101",
+    contactNumber: "+91 9733686328",
+    email: "office@comfort.org.in",
+    workingHours: {
+      weekdays: "9:00 AM - 10:00 PM",
+      weekends: "9:00 AM - 10:00 PM",
+    },
   },
 ];
 
@@ -104,7 +174,7 @@ const ShopDetails = ({ params }: ShopDetailsProps) => {
       <div className="relative h-[50vh] md:h-[60vh] bg-black">
         <div className="relative w-full h-full">
           <Image
-            src="/assets/hero-bg.jpg"
+            src={shop.image}
             alt="Shop Hero"
             fill
             className="object-cover opacity-50"

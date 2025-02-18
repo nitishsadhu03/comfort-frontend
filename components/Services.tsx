@@ -26,42 +26,42 @@ const services: Service[] = [
   {
     title: "Women's Hair",
     leftImage: "/assets/pic-45.jpg",
-    rightImage: "/assets/pic-46.jpg",
+    rightImage: "/assets/pic-36.jpg",
   },
   {
     title: "Hair Colouring",
-    leftImage: "/assets/pic-38.jpg",
+    leftImage: "/assets/pic-54.jpg",
     rightImage: "/assets/pic-40.jpg",
   },
   {
     title: "Hair Texture",
-    leftImage: "/assets/pic-32.jpg",
-    rightImage: "/assets/pic-54.jpg",
+    leftImage: "/assets/pic-68.jpg",
+    rightImage: "/assets/pic-74.jpg",
   },
   {
     title: "Hand & Foot Spa",
-    leftImage: "/assets/pic-61.jpg",
-    rightImage: "/assets/pic-58.jpg",
+    leftImage: "/assets/pic-79.jpg",
+    rightImage: "/assets/pic-80.jpg",
   },
   {
     title: "Skin Care",
-    leftImage: "/assets/pic-42.jpg",
+    leftImage: "/assets/pic-72.jpg",
     rightImage: "/assets/pic-47.jpg",
   },
   {
     title: "Massage",
-    leftImage: "/assets/pic-55.jpg",
-    rightImage: "/assets/pic-41.jpg",
+    leftImage: "/assets/pic-83.jpg",
+    rightImage: "/assets/pic-84.jpg",
   },
   {
     title: "Nail Art",
-    leftImage: "/assets/pic-64.jpg",
-    rightImage: "/assets/pic-62.jpg",
+    leftImage: "/assets/pic-77.jpg",
+    rightImage: "/assets/pic-78.jpg",
   },
   {
-    title: "Beauty Essentials",
-    leftImage: "/assets/pic-39.jpg",
-    rightImage: "/assets/pic-44.jpg",
+    title: "Comfort Makeup",
+    leftImage: "/assets/pic-81.jpg",
+    rightImage: "/assets/pic-82.jpg",
   },
 ];
 

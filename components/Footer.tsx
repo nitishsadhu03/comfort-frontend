@@ -25,9 +25,9 @@ const socialLinks: SocialLink[] = [
 
 const quickLinks: QuickLink[] = [
   { href: "/", label: "Home" },
-  { href: "#about", label: "About Us" },
+  { href: "#aboutus", label: "About Us" },
   { href: "#services", label: "Services" },
-  { href: "#gallery", label: "Gallery" },
+  // { href: "#gallery", label: "Gallery" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -78,7 +78,7 @@ const Footer: FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info Section */}
           <motion.div variants={itemVariants} className="space-y-4">
-            <h3 className="text-2xl font-bold text-primary">Comfort Salon</h3>
+            <h3 className="text-2xl font-bold text-primary">Comfort Salon ™</h3>
             <p className="text-gray-400">
               Elevate your beauty experience with our expert stylists and
               premium services.
@@ -119,21 +119,42 @@ const Footer: FC = () => {
             <h4 className="text-lg font-semibold">Contact Us</h4>
             <address className="not-italic">
               <p className="text-gray-400">
-                123 Beauty Street, Salon City, 12345
+                COMFORT :- SB Gorai Road, Asansol
+              </p>
+              <p className="text-gray-400">
+                WELLA COMFORT:- 1st floor Sentrum Mall, Asansol
+              </p>
+              <p className="text-gray-400">
+                SCHWARZKOPF COMFORT:- Murgasol, Asansol
+              </p>
+              <p className="text-gray-400">
+                COMFORT PREMIA:- 1st Floor, Murgasol, Asansol 
+              </p>
+              <p className="text-gray-400">
+                COMFORT:- Bastin Bazar First Floor, Asansol
+              </p>
+              <p className="text-gray-400">
+                COMFORT:- Bastin Bazar UnderGround, Asansol
+              </p>
+              <p className="text-gray-400">
+                COMFORT:- KB City Center Mall, Purulia  
+              </p>
+              <p className="text-gray-400">
+                COMFORT:- Pratap Bagan, Bankura  
               </p>
               <p className="text-gray-400">
                 Phone:{" "}
                 <a
-                  href="tel:+11234567890"
+                  href="tel:+917001707740"
                   className="hover:text-primary transition-colors"
                 >
-                  (123) 456-7890
+                  (+91) 7001707740
                 </a>
               </p>
               <p className="text-gray-400">
                 Email:{" "}
                 <a
-                  href="mailto:info@comfortsalon.com"
+                  href="mailto:office@comfort.org.in"
                   className="hover:text-primary transition-colors"
                 >
                   info@comfortsalon.com

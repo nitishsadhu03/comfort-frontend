@@ -19,11 +19,17 @@ interface GalleryProps {
 const Gallery = ({
   images = [
     "/assets/pic-17.jpg",
+    "/assets/pic-18.jpg",
     "/assets/pic-19.jpg",
-    "/assets/pic-13.jpg",
-    "/assets/pic-16.jpg",
+    "/assets/pic-20.jpg",
     "/assets/pic-21.jpg",
-    "/assets/pic-25.jpg",
+    "/assets/pic-22.jpg",
+    "/assets/pic-23.jpg",
+    "/assets/pic-24.jpg",
+    "/assets/pic-29.jpg",
+    "/assets/pic-26.jpg",
+    "/assets/pic-27.jpg",
+    "/assets/pic-30.jpg",
   ],
 }: GalleryProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);

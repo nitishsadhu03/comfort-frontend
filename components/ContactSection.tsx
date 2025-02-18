@@ -97,11 +97,11 @@ const ContactSection = () => {
             <div className="space-y-4">
               <motion.div className="flex items-center" variants={itemVariants}>
                 <MapPin className="w-6 h-6 text-primary mr-3" />
-                <span className="text-gray-400">Hill View, Asansol, 713302</span>
+                <span className="text-gray-400">SB Gorai Road, Asansol, 713301</span>
               </motion.div>
               <motion.div className="flex items-center" variants={itemVariants}>
                 <Phone className="w-6 h-6 text-primary mr-3" />
-                <span className="text-gray-400">(555) 123-4567</span>
+                <span className="text-gray-400">+91-7001707740</span>
               </motion.div>
               <motion.div className="flex items-center" variants={itemVariants}>
                 <Mail className="w-6 h-6 text-primary mr-3" />

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="bg-secondary-foreground relative">
       <div className="relative z-10">
-        <Navbar />
+        <Navbar /> 
         <Hero />
         <ServiceCards />
         <About />

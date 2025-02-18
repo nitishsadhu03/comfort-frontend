@@ -14,7 +14,7 @@ interface Brand {
 }
 
 const About = () => {
-  const services = ["Hair Styling", "Skin Care", "Wedding Makeup"];
+  const services = ["Hair Styling", "Skin Care", "Wedding Makeup", "Hair Extension", "Cosmetologist Treatments"];
 
   const brands: Brand[] = [
     { name: "CASMARA", width: 100 },
@@ -102,9 +102,9 @@ const About = () => {
               <h2 className="text-primary mb-4 font-semibold text-sm md:text-base">
                 ABOUT US
               </h2>
-              <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-white">
+              {/* <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-white">
                 Comfort Salon
-              </h1>
+              </h1> */}
             </motion.div>
 
             <motion.div
@@ -112,14 +112,7 @@ const About = () => {
               variants={itemVariants}
             >
               <p className="text-center lg:text-left">
-                At Comfort Salon, beauty is more than a service, it&apos;s an
-                experience. We provide expert hairstyling, skincare, and makeup
-                in a warm, luxurious ambiance. Our skilled professionals use
-                high-quality products to enhance your natural beauty, ensuring
-                you leave refreshed and confident. With a welcoming atmosphere,
-                top-tier expertise, and premium products, we make every visit a
-                rejuvenating escape. Let us pamper you with the care you
-                deserve—because at Comfort Salon, beauty begins with comfort. 🌿
+              Our Multi-Award winning Comfort Chain Salon was built from the ground up, focusing on quality, innovation & customer care. Our core foundation lies in personalized services, offering cutting-edge treatments alongside timeless beauty traditions in an economised method. Prioritizing customer satisfaction and building lasting relationships, the brand stands out through its unique identity and commitment to excellence. Investing in top-tier products, eco-friendly practices, and staying ahead of trends has ensured our brand’s longevity. With a customer-centric approach and community involvement, the salon continues to grow, providing exceptional beauty experiences and aiming to expand further while maintaining its essential core values. 🌿
               </p>
               <div className="text-center lg:text-left">
                 <Link
