@@ -153,6 +153,7 @@ const Navbar = () => {
     { name: "Shops", path: "/shops" },
     { name: "Academy", path: "/academy" },
     { name: "Partners", path: "/partners" },
+    { name: "Membership", path: "/membership" },
   ];
 
   return (
